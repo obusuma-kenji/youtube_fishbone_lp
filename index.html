@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube登録者を増やすフィッシュボーン戦略LP</title>
+  <meta name="description" content="AI検索時代のYouTube成長戦略を、原因整理・行動計画・テーマ別実践で体系化するフィッシュボーン戦略LP。">
+  <style>
+    :root{
+      --blue:#0037c8; --deep:#001f7f; --navy:#081957; --pale:#eef5ff; --line:#c6d7ff; --text:#12204a;
+      --shadow:0 18px 45px rgba(0,40,150,.12); --radius:24px;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;color:var(--text);background:linear-gradient(180deg,#fff 0%,#f7faff 48%,#fff 100%);line-height:1.75;}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1120px,92vw);margin:auto}
+    .pill{display:inline-flex;gap:.5em;align-items:center;background:#eaf1ff;border:1px solid #bfd2ff;color:var(--blue);border-radius:999px;padding:.45rem .9rem;font-weight:800;font-size:.9rem}
+    .hero{position:relative;overflow:hidden;padding:34px 0 70px;background:radial-gradient(circle at 20% 10%,#e9f1ff 0,#fff 35%,transparent 65%),linear-gradient(135deg,#fff 0%,#f7fbff 100%)}
+    .hero:before{content:"";position:absolute;inset:auto -120px -220px -120px;height:320px;background:linear-gradient(90deg,#0047ff,#00227e);border-radius:50% 50% 0 0;opacity:.08}
+    header{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:8px 0 28px}
+    .brand{font-weight:900;color:var(--deep);letter-spacing:.04em}.nav{display:flex;gap:10px;flex-wrap:wrap}.nav a{font-size:.9rem;font-weight:800;border:1px solid var(--line);padding:.45rem .8rem;border-radius:999px;background:#fff}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:42px;align-items:center}.eyebrow{font-weight:900;color:var(--blue);margin:0 0 12px}.hero h1{font-size:clamp(2.2rem,5vw,4.8rem);line-height:1.12;margin:.2rem 0 1rem;color:var(--deep);letter-spacing:.02em}.lead{font-size:clamp(1rem,2vw,1.28rem);font-weight:700;color:#26376d;margin:0 0 26px}.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin:26px 0}.btn{display:inline-flex;align-items:center;justify-content:center;gap:.7em;min-height:54px;padding:0 1.35rem;border-radius:999px;font-weight:900;box-shadow:0 10px 24px rgba(0,55,200,.18)}.btn.primary{background:linear-gradient(135deg,#0054ff,#002ca8);color:#fff}.btn.secondary{background:#fff;color:var(--blue);border:2px solid #bcd0ff}.hero-card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:14px;box-shadow:var(--shadow);transform:rotate(1deg)}.hero-card img{width:100%;display:block;border-radius:18px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}.stat{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;text-align:center;font-weight:900;color:var(--deep)}.stat small{display:block;font-size:.78rem;color:#49619d;font-weight:700}.section{padding:74px 0}.center{text-align:center}.section h2{font-size:clamp(1.75rem,3.5vw,3rem);line-height:1.25;margin:0 0 12px;color:var(--deep)}.section p.sub{margin:0 auto 34px;max-width:780px;font-weight:700;color:#536494}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}.icon{font-size:2rem;display:inline-grid;place-items:center;width:58px;height:58px;border-radius:18px;background:var(--pale);color:var(--blue);margin-bottom:8px}.feature h3{margin:.2rem 0 .4rem;color:var(--deep);font-size:1.25rem}.areas{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.area{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px 12px;text-align:center;font-weight:900;color:var(--deep)}.area span{display:block;color:var(--blue);font-size:.84rem}.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}.card{background:#fff;border:1px solid var(--line);border-radius:26px;box-shadow:var(--shadow);overflow:hidden}.card .cap{padding:18px 20px;display:flex;justify-content:space-between;gap:12px;align-items:center}.card h3{margin:0;color:var(--deep);font-size:1.2rem}.tag{background:#eef4ff;color:var(--blue);font-weight:900;border-radius:999px;padding:.25rem .7rem;font-size:.82rem;white-space:nowrap}.card img{width:100%;display:block;border-top:1px solid var(--line);background:#fff}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:step}.step{position:relative;background:#fff;border:2px solid #bfd2ff;border-radius:24px;padding:30px;box-shadow:var(--shadow)}.step:before{counter-increment:step;content:"0"counter(step);position:absolute;top:-20px;left:24px;background:linear-gradient(135deg,#0054ff,#002ca8);color:#fff;border-radius:999px;width:50px;height:50px;display:grid;place-items:center;font-weight:900}.step h3{margin:16px 0 6px;color:var(--deep)}.offer{background:linear-gradient(135deg,#003cdf,#001a78);color:#fff;border-radius:34px;padding:54px 36px;position:relative;overflow:hidden;box-shadow:0 28px 70px rgba(0,34,126,.25)}.offer:before,.offer:after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.12)}.offer:before{width:260px;height:260px;left:-80px;top:-80px}.offer:after{width:360px;height:360px;right:-160px;bottom:-180px}.offer>*{position:relative}.offer h2{color:#fff}.offer p{font-weight:800;color:#dce7ff}.footer{padding:34px 0 48px;text-align:center;color:#60709d;font-weight:700}.sticky{position:fixed;right:18px;bottom:18px;z-index:20;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);border-radius:999px;padding:.75rem 1rem;font-weight:900;color:var(--blue)}
+    @media (max-width:900px){.hero-grid,.gallery,.features,.steps{grid-template-columns:1fr}.areas{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:1fr}.nav{display:none}.hero-card{transform:none}.section{padding:54px 0}.offer{border-radius:24px;padding:38px 22px}.sticky{display:none}}
+  </style>
+</head>
+<body>
+  <a class="sticky" href="#gallery">テーマ一覧へ</a>
+  <section class="hero" id="top">
+    <div class="wrap">
+      <header>
+        <div class="brand">FISHBONE STRATEGY LP</div>
+        <nav class="nav"><a href="#reason">課題</a><a href="#areas">6領域</a><a href="#gallery">14テーマ</a><a href="#action">30日計画</a></nav>
+      </header>
+      <div class="hero-grid">
+        <div>
+          <div class="pill">全14テーマを整理</div>
+          <p class="eyebrow">AI検索時代のYouTube成長戦略</p>
+          <h1>YouTube登録者を増やす<br>フィッシュボーン戦略LP</h1>
+          <p class="lead">「なぜ登録者が増えないのか」を原因分解し、コンテンツ設計・動画品質・AI検索対策・投稿運用・導線・信頼づくりまで、実行順に整理します。</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#gallery">テーマ別に見直す →</a>
+            <a class="btn secondary" href="#action">最初の30日を見る →</a>
+          </div>
+          <div class="stats">
+            <div class="stat">原因が見える<small>登録者が伸びない理由を分解</small></div>
+            <div class="stat">行動が決まる<small>優先順位が明確になる</small></div>
+            <div class="stat">改善が続く<small>月次レビューに使える</small></div>
+          </div>
+        </div>
+        <div class="hero-card"><img src="assets/overview.webp" alt="YouTube登録者を増やすフィッシュボーン戦略LP 全体像"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reason">
+    <div class="wrap center">
+      <h2>登録者が増えない原因を、感覚ではなく構造で見る</h2>
+      <p class="sub">YouTubeの改善は、思いつきで動画を増やすだけでは続きません。まずは「どこが詰まっているか」を魚の骨のように分解し、最初に直す場所を決めます。</p>
+      <div class="features">
+        <div class="feature"><div class="icon">🔎</div><h3>原因整理</h3><p>ターゲット・テーマ・動画品質・導線・信頼材料など、伸びない要因を分類します。</p></div>
+        <div class="feature"><div class="icon">🎯</div><h3>優先順位</h3><p>最初の30日は「外れ値分析」「台本改善」「投稿継続」に絞り、改善サイクルを回します。</p></div>
+        <div class="feature"><div class="icon">📈</div><h3>継続改善</h3><p>月1レビューでCTR・視聴維持率・登録導線を確認し、当たり企画を再利用します。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="areas">
+    <div class="wrap center">
+      <h2>登録者を増やす6つの主要領域</h2>
+      <p class="sub">チャンネル成長を「企画」「品質」「AI検索」「運用」「導線」「信頼」の6領域に分け、抜け漏れなく点検します。</p>
+      <div class="areas">
+        <div class="area"><span>01</span>コンテンツ設計</div><div class="area"><span>02</span>動画構成・品質</div><div class="area"><span>03</span>AI検索・文字資産</div><div class="area"><span>04</span>投稿運用</div><div class="area"><span>05</span>導線・視聴体験</div><div class="area"><span>06</span>信頼・露出</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <div class="center"><h2>テーマ別フィッシュボーン一覧</h2><p class="sub">各テーマの画像をそのままLP内で確認できます。必要なテーマから見直し、チャンネル改善のチェックリストとして使えます。</p></div>
+      <div class="gallery">
+        <article class="card" id="theme_strategy"><div class="cap"><h3>01. テーマ戦略</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/theme_strategy.webp" alt="YouTube登録者を増やすためのテーマ戦略フィッシュボーンノート"></article>
+        <article class="card" id="collab"><div class="cap"><h3>02. コラボ露出</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/collab.webp" alt="YouTube登録者を増やすためのコラボ露出フィッシュボーンノート"></article>
+        <article class="card" id="description"><div class="cap"><h3>03. 概要欄</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/description.webp" alt="YouTube登録者を増やすための概要欄フィッシュボーンノート"></article>
+        <article class="card" id="workflow"><div class="cap"><h3>04. 制作フロー</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/workflow.webp" alt="YouTube登録者を増やすための制作フローフィッシュボーンノート"></article>
+        <article class="card" id="subtitles"><div class="cap"><h3>05. 字幕整備</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/subtitles.webp" alt="YouTube登録者を増やすための字幕整備フィッシュボーンノート"></article>
+        <article class="card" id="opening"><div class="cap"><h3>06. 冒頭設計</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/opening.webp" alt="YouTube登録者を増やすための冒頭設計フィッシュボーンノート"></article>
+        <article class="card" id="persona"><div class="cap"><h3>07. ペルソナ設定</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/persona.webp" alt="YouTube登録者を増やすためのペルソナ設定フィッシュボーンノート"></article>
+        <article class="card" id="ai_text"><div class="cap"><h3>08. AI検索・文字資産</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/ai_text.webp" alt="YouTube登録者を増やすためのAI検索・文字資産フィッシュボーンノート"></article>
+        <article class="card" id="posting"><div class="cap"><h3>09. 投稿運用</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/posting.webp" alt="YouTube登録者を増やすための投稿運用フィッシュボーンノート"></article>
+        <article class="card" id="flow_experience"><div class="cap"><h3>10. 導線・視聴体験</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/flow_experience.webp" alt="YouTube登録者を増やすための導線・視聴体験フィッシュボーンノート"></article>
+        <article class="card" id="trust"><div class="cap"><h3>11. 信頼・露出</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/trust.webp" alt="YouTube登録者を増やすための信頼・露出フィッシュボーンノート"></article>
+        <article class="card" id="content_design"><div class="cap"><h3>12. コンテンツ設計</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/content_design.webp" alt="YouTube登録者を増やすためのコンテンツ設計フィッシュボーンノート"></article>
+        <article class="card" id="video_quality"><div class="cap"><h3>13. 動画構成・品質</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/video_quality.webp" alt="YouTube登録者を増やすための動画構成・品質フィッシュボーンノート"></article>
+        <article class="card" id="action"><div class="cap"><h3>14. 行動計画</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/action.webp" alt="YouTube登録者を増やすための行動計画フィッシュボーンノート"></article>
+        <article class="card" id="cause"><div class="cap"><h3>15. 原因整理</h3><span class="tag">詳細整理</span></div><img loading="lazy" src="assets/cause.webp" alt="YouTube登録者を増やすための原因整理フィッシュボーンノート"></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="action">
+    <div class="wrap center">
+      <h2>最初の30日アクション</h2>
+      <p class="sub">最初は完璧を目指さず、登録につながる最低限の改善を固定します。</p>
+      <div class="steps">
+        <div class="step"><h3>外れ値分析</h3><p>伸びた動画・競合の外れ値動画を分析し、勝てるテーマを3つ選びます。</p></div>
+        <div class="step"><h3>台本改善</h3><p>冒頭0.5秒で結論を出し、ベネフィット・サムネ・タイトルを改善します。</p></div>
+        <div class="step"><h3>投稿継続</h3><p>投稿頻度を安定させ、月1回レビューで改善点を次回へ反映します。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="offer center">
+        <h2>フィッシュボーンで、YouTube成長戦略をひとつに整理する</h2>
+        <p>原因・設計・制作・運用・導線・露出まで、全体像を一枚で把握。チーム共有やクライアント提案にも使いやすい構成です。</p>
+        <div class="cta-row" style="justify-content:center"><a class="btn secondary" href="#top">全体像へ戻る</a><a class="btn primary" href="#gallery">テーマ別に確認する</a></div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"><div class="wrap">YouTube Fishbone Strategy LP / 静的HTML版</div></footer>
+</body>
+</html>
